@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sherdeadlock:fixed-data-table',
-  version: '0.0.6',
+  version: '0.0.7',
   // Brief, one-line summary of the package.
   summary: 'npm wrapper for https://github.com/facebook/fixed-data-table',
   // URL to the Git repository containing the source code for this package.
@@ -19,8 +19,10 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use(['react@0.1.4'], 'client');
   api.use(['cosmos:browserify@0.5.0'], 'client');
-  api.addFiles(['fixed-data-table.browserify.options.json', 
-               'fixed-data-table.browserify.js'], 'client');
+  api.addFiles([
+    'window.react.js',
+    'fixed-data-table.browserify.options.json', 
+    'fixed-data-table.browserify.js'], 'client');
 
   api.export(['FixedDataTable'], 'client');
 });

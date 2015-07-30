@@ -1,2 +1,2 @@
 // Write your package code here!
-FixedDataTable = require('fixed-data-table');
+FixedDataTable = Npm.require('fixed-data-table');

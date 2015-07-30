@@ -1,5 +1,7 @@
 # Usage
 
+example: http://fixed-data-table.meteor.com/
+
 add [fixed-data-table.css](https://github.com/facebook/fixed-data-table/blob/master/dist/fixed-data-table.css)
 
 ```js

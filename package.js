@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sherdeadlock:fixed-data-table',
-  version: '0.0.7',
+  version: '0.0.8',
   // Brief, one-line summary of the package.
   summary: 'npm wrapper for https://github.com/facebook/fixed-data-table',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 
 Npm.depends({
   'externalify': '0.1.0',
-  'fixed-data-table': '0.4.1'
+  'fixed-data-table': '0.4.6'
 });
 
 Package.onUse(function(api) {

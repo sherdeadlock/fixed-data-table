@@ -12,7 +12,7 @@ Package.describe({
 
 Npm.depends({
   'externalify': '0.1.0',
-  'fixed-data-table': '0.4.1'
+  'fixed-data-table': '0.4.6'
 });
 
 Package.onUse(function(api) {
